@@ -64,7 +64,7 @@ python main.py
 
 ## 📃 Results
 
-Reduced WER from **0.23 → 0.157** through data cleaning, text postprocessing ([jiwer](https://github.com/jitsi/jiwer)), and hyperparameter tuning.
+Reduced WER from **0.23 → 0.157** through data cleaning, text postprocessing ([jiwer](https://jitsi.github.io/jiwer/)), and hyperparameter tuning.
 
 - **Base model** — performs better on longer audio files
 - **LoRA model** — higher accuracy on shorter audio files, but hallucinates more severely
